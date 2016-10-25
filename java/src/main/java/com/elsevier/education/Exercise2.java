@@ -11,7 +11,8 @@ public class Exercise2 {
 
 	public static class Car {
 		
-		private GasEngine engine = new GasEngine();
+		@Autowired
+		private GasEngine engine;
 		
 		public Car() {
 		}
